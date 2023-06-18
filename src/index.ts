@@ -7,8 +7,8 @@ app.get('/', (_req: Request, res: Response) => {
 	return res.send('Express Typescript on Vercel')
 })
 
-app.get('/ping', (_req: Request, res: Response) => {
-	return res.send('pong 🏓')
+app.get('/test', (_req: Request, res: Response) => {
+	return res.send('Helloooo')
 })
 
 app.listen(port, () => {
